@@ -5,7 +5,7 @@ required in order to run.
 Reporting file usage on a mountpoint:
 From the root of the project, run:
 python ./src/get_disk_usage.py [mountpoint]
-e.g. python ./src/get_disk_usage.py [mountpoint]
+e.g. python ./src/get_disk_usage.py /tmp
 
 Output is returned as a formatted JSON string.
 
