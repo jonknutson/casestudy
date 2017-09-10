@@ -12,6 +12,9 @@ Output is returned as a formatted JSON string.
 Testing:
 Testing requires pytest, mock, and robber. To install, from the root directory run:
 pip install -Ur requirements.txt
+To run tests:
+From the project root, execute:
+py.test tests
 
 Testing is focused on construction of the dictionary object and uses mocks to achieve deterministic results. I considered
 using a test directory structure, but running the program on different filesystems could potentially impact the results.
